@@ -3,6 +3,7 @@
 	height: 480px;
 	overflow: hidden;
 	margin: 0 auto;
+	position: relative;
 }
 
 .slides .code-illustration img {
