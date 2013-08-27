@@ -1,0 +1,13 @@
+.slides .code-illustration {
+	width: 700px;
+	height: 480px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.slides .code-illustration img {
+	max-width: none;
+	max-height: none;
+	position: absolute;
+	left: 0px;
+}
