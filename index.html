@@ -74,8 +74,8 @@
 					<p>Writing specifications that can prove the compliance of software</p>
 				</section>
 				<section>
-					<h2>A JQuery timer plugin</h2>
-					<p>And a tour of nine Jasmine features</p>
+					<h2>A tour of nine Jasmine features</h2>
+					<p>Testing a simple JQuery timer plugin</p>
 				</section>
 				<section>
 					<section>
@@ -91,7 +91,6 @@
 					<div class="code-illustration">
 						<img src="img/it.jpg" alt="Screenshot of it blocks" class="fragment" />
 						<img src="img/it-a.jpg" alt="Screenshot of it blocks" class="fragment" />
-						<img src="img/it-b.jpg" alt="Screenshot of it blocks" class="fragment" />
 						<img src="img/it-c.jpg" alt="Screenshot of it blocks" class="fragment" />
 					</div>
 				</section>
@@ -104,9 +103,6 @@
 							<img src="img/expects-a.jpg" alt="Screenshot of expects blocks" class="fragment" />
 							<img src="img/expects-b.jpg" alt="Screenshot of expects blocks" class="fragment" />
 							<img src="img/expects-c.jpg" alt="Screenshot of expects blocks" class="fragment" />
-							<img src="img/expects-d.jpg" alt="Screenshot of expects blocks" class="fragment" />
-							<img src="img/expects-e.jpg" alt="Screenshot of expects blocks" class="fragment" />
-							<img src="img/expects-f.jpg" alt="Screenshot of expects blocks" class="fragment" />
 						</div>
 					</section>
 				</section>
@@ -115,12 +111,10 @@
 					<h2>4. Before Each</h2>
 					<div class="code-illustration">
 						<img src="img/beforeeach.jpg" alt="Screenshot of before-each blocks" class="fragment" />
-						<img src="img/beforeeach-a.jpg" alt="Screenshot of before-each blocks" class="fragment" />
 						<img src="img/beforeeach-b.jpg" alt="Screenshot of before-each blocks" class="fragment" />
 						<img src="img/beforeeach-c.jpg" alt="Screenshot of before-each blocks" class="fragment" />
 					</div>
 				</section>
-
 				<section>
 					<h2>5. The Spec Runner</h2>
 					<div class="code-illustration">
@@ -128,7 +122,10 @@
 						<img src="img/specrunner.jpg" alt="Screenshot of the Jasmine spec runner" class="fragment" />
 					</div>
 				</section>
-
+				<section>
+					<h2>Hooray!</h2>
+					<img src="img/smiling-zoidberg.jpg" alt="Hooray!" />
+				</section>
 				<section>
 					<h2>6. Mocking</h2>
 					<p>And the Jasmine clock mock</p>
@@ -180,19 +177,6 @@
 				</section>
 
 				<section>
-					<h2>Thank You</h2>
-					<h3>Slides</h3>
-					<p><a href="http://katiefenn.co.uk/talks/jasmine-talk" target="_blank">http://katiefenn.co.uk/talks/jasmine-talk</a></p>
-					<h3>Slideshow source on Github</h3>
-					<p><a href="https://github.com/katiefenn/Jasmine-Talk" target="_blank">https://github.com/katiefenn/Jasmine-Talk</a></p>
-					<h3>Thanks to</h3>
-					<p><a href="http://lab.hakim.se/reveal-js/">Reveal.JS</a> for a great HTML5 slideshow tool</p>
-					<p style="font-size: 0.5em">
-						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/uk/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Behaviour Driven Development and Jasmine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katiefenn.co.uk/talks/jasmine-talk/" property="cc:attributionName" rel="cc:attributionURL">Katie Fenn</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England &amp; Wales License</a>.
-					</p>
-				</section>
-
-				<section>
 					<h1 id="timer" style="cursor: pointer;"></h1>
 					<script type="text/javascript">
 						$(document).ready(function () {
@@ -200,6 +184,17 @@
 						});
 					</script>
 					<p>The complete spec runner can be found <a href="http://katiefenn.co.uk/talks/jasmine-talk/timer/SpecRunner.html" target="_blank">here</a></p>
+				</section>
+
+				<section>
+					<h2>Thank You</h2>
+					<h3>Slides</h3>
+					<p><a href="http://katiefenn.co.uk/talks/jasmine-talk" target="_blank">http://katiefenn.co.uk/talks/jasmine-talk</a></p>
+					<h3>We're hiring</h3>
+					<p><a href="http://inviqa.com/careers/current-vacancies/sheffield/">http://inviqa.com/careers/</a></p>
+					<p style="font-size: 0.5em">
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/uk/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Behaviour Driven Development and Jasmine</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://katiefenn.co.uk/talks/jasmine-talk/" property="cc:attributionName" rel="cc:attributionURL">Katie Fenn</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England &amp; Wales License</a>.
+					</p>
 				</section>
 
 			</div>
@@ -219,6 +214,7 @@
 				progress: true,
 				history: true,
 				center: true,
+				mouseWheel: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
